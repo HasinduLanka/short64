@@ -1,6 +1,6 @@
 {
   "name": "short64",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shorter base64 encoding for integers",
   "main": "dist/short64.js",
   "types": "dist/short64.d.ts",

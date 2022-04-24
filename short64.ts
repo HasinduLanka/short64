@@ -16,7 +16,7 @@ const SetAlphabet = (newalphabet: string) => {
     }
 }
 
-SetAlphabet('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_')
+SetAlphabet('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-')
 
 // number to short64
 const From = (number: number): string => {

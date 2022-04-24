@@ -14,7 +14,7 @@ const SetAlphabet = (newalphabet) => {
         s2b[alphabet.charCodeAt(i)] = i;
     }
 };
-SetAlphabet('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_');
+SetAlphabet('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-');
 // number to short64
 const From = (number) => {
     let lo = number >>> 0;
